@@ -2,9 +2,13 @@ from setuptools import setup, find_packages
 
 
 setup(name='tru',
-      version='0.0.0',
-      description='',
-      long_description="",
+      version='0.0.2',
+      description='https://github.com/TroyRetter/TRU',
+      long_description="""
+Wraps some standard python commands for brevity. Parameters default to the canonical data science use case (or the author's primary use case)
+
+see: https://github.com/TroyRetter/TRU
+""",
       classifiers=[
           'Programming Language :: Python :: 3.5',
       ],
